@@ -1,0 +1,49 @@
+# KiCad backup and autosave files
+*.bak
+*.b#?
+*.s#?
+*.kicad_pcb-bak
+
+# KiCad build and cache files
+*.net
+*.cmp
+*.cache
+*.dcm
+*.xml
+*.pyc
+*.sch-bak
+*-backups/
+
+# KiCad simulation files
+simulation/
+
+# KiCad 3D models cache
+*.step
+*.wrl
+
+# Gerber and fabrication outputs
+*.gbr
+*.gbl
+*.gbo
+*.gbp
+*.gbs
+*.gtl
+*.gto
+*.gtp
+*.gts
+*.drl
+*.map
+*.rpt
+*.pos
+*.csv
+*.zip
+
+# KiCad specific settings
+fp-lib-table
+sym-lib-table
+*-cache.lib
+
+# Ignore specific OS-related files
+.DS_Store
+Thumbs.db
+
